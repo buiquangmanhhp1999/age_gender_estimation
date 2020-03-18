@@ -43,7 +43,6 @@ class Efficient_Net(object):
         # Train the part you added
         if self.trainable:
             self.model.summary()
-            self.train()
 
     @staticmethod
     def build_age_branch(x):
